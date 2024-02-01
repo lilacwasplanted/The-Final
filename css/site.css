@@ -7,3 +7,11 @@ h1{
 p{
     color: #3f007b;
 }
+#PhotoOfMe{
+    border-color: #2a0052;
+    border-style: inset;
+    border-radius: 150px;
+    outline-color:#2a0052;
+    border-width: 15px;
+    margin-left: 30px;
+}
