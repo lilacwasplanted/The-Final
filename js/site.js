@@ -20,7 +20,23 @@ function updateSlideShowImage(){
 }
 setInterval(updateSlideShowImage, 2500);
 
-
+const aboutmeimages = document.getElementById("aboutmeimages");
+let AMimgs = [
+    "./images/ep1.jpg",
+    "./images/IMG_3888.JPEG",
+    "./images/themountains.jpg",
+    "./images/Whataburger.jpg"
+];
+let AMcurrentimageindex = 0;
+function AboutMeSlideShow(){
+    AMcurrentimageindex++
+    if(AMcurrentimageindex >= AMimgs.length){
+        AMcurrentimageindex = 0;
+    }
+    let nextAMimg = AMimgs[AMcurrentimageindex];
+    aboutmeimages.src = nextAMimg;
+}
+setInterval(AboutMeSlideShow, 3500);
 
 
 const theFUNbutton = document.getElementById("theFUNbutton");
