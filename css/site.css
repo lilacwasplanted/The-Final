@@ -15,3 +15,36 @@ p{
     border-width: 15px;
     margin-left: 30px;
 }
+nav{
+    border-style: groove;
+    border-width: thick;
+    border-color: black;
+    margin-right: inherit;
+    background-color: #51009d;
+    font-size: 20px;
+    width: 400px;
+    color: #1d0039;
+}
+#GamesIvePlayed{
+    max-width: 400px;
+    border-style: groove;
+    border-width: 15px;
+    border-color: black;
+    margin-right: inherit;
+    background-color: white;
+}
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  a:visited {
+    color: rgb(29, 0, 57);
+  }
+  
+  a:hover {
+    color: rgb(42, 0, 82);
+    text-decoration:double;
+  }
+  
+  a:active {
+    color: rgb(81, 0, 157);
+  }
