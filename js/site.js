@@ -26,8 +26,8 @@ let AMimgs = [
     "./images/IMG_3888.JPEG",
     "./images/themountains.jpg",
     "./images/epdt.PNG",
-    "./images/Whataburger.jpg",
-    "./images/Texas.jpg"
+    "./images/Whataburger.jpg"
+
 ];
 let AMcurrentimageindex = 0;
 function AboutMeSlideShow(){
