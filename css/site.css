@@ -1,9 +1,10 @@
+/* General CSS */
 html{
     background-color: grey;
   
 }
 h1{
-    color: #2a2a2a;
+    color: #1d0039;
 }
 p{
     color: #2a0052;
@@ -27,7 +28,7 @@ a:link {
     color: rgb(0, 0, 0);
   }
   a:visited {
-    color: rgb(29, 0, 57);
+    color: white;
   }
   
   a:hover {
@@ -38,6 +39,13 @@ a:link {
   a:active {
     color: rgb(81, 0, 157);
   }
+
+
+
+
+
+
+
   /* Index CSS */
   #GamesIvePlayed{
     max-width: 275px;
@@ -77,35 +85,7 @@ a:link {
 
 
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
 
-/* Left and right column */
-.column.side {
-  width: 25%;
-}
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-
-  }
-}
 
 
 
@@ -119,17 +99,69 @@ a:link {
     border-width: 15px;
     border-color: black;
     margin-right: inherit;
+    margin-top: 75px;
     background-color: white;
   }
+  #aboutmetext{
+    max-width: 600px;
+  }
+  .column{
+    column-count: 2;
+    column-gap: normal;
+  }
+
+
+
+
+
 
   /* My Skills CSS */
   
   #skills{
     border-style: groove;
-    border-width: thick;
+    border-width: 5px;
     border-color: black;
     margin-right: inherit;
     background-color: #51009d;
-    font-size: 15px;
-    color: #1d0039;
+    font-size: 25px;
+    color: white;
+    width: 350px;
+    top: 75px;
   }
+  #mySkills{
+    color: white;
+    font-size: 20px;
+  }
+  #skillsHTML{
+    /* background-image: url(./images/OIP.jpg); */
+    background-image: repeating-conic-gradient(black 10%, #51009d 20%); 
+   }
+
+#skillsH1{
+  color: white;
+}
+
+
+
+
+
+
+   /* My Projects */
+   #projectText{
+    color: white;
+    border-style: groove;
+    border-width: thick;
+    border-color: black;
+    margin-right: inherit;
+    background-color: #2a0052;
+    max-width: 500px;
+     }
+     #bigProjectText{
+      color: white;
+      border-style: groove;
+      border-width: thick;
+      border-color: black;
+      margin-right: inherit;
+      background-color: #2a0052;
+      max-width: 750px;
+     }
