@@ -1,5 +1,5 @@
 html{
-    background-color: #1d0039;
+    background-color: grey;
 }
 h1{
     color: #38006c;
@@ -66,4 +66,7 @@ a:link {
     border-color: black;
     margin-right: inherit;
     background-color: white;
+  }
+  li{
+color: #51009d;
   }
