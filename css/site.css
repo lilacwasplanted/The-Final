@@ -1,22 +1,16 @@
 html{
     background-color: grey;
+  
 }
 h1{
-    color: #38006c;
+    color: #2a2a2a;
 }
 p{
-    color: #3f007b;
+    color: #2a0052;
     font-size: x-large;
     font-style: bold;
 }
-#PhotoOfMe{
-    border-color: #2a0052;
-    border-style: inset;
-    border-radius: 150px;
-    outline-color:#2a0052;
-    border-width: 15px;
-    margin-left: 30px;
-}
+
 nav{
     border-style: groove;
     border-width: thick;
@@ -27,14 +21,8 @@ nav{
     width: 400px;
     color: #1d0039;
 }
-#GamesIvePlayed{
-    max-width: 400px;
-    border-style: groove;
-    border-width: 15px;
-    border-color: black;
-    margin-right: inherit;
-    background-color: white;
-}
+
+
 a:link {
     color: rgb(0, 0, 0);
   }
@@ -50,6 +38,15 @@ a:link {
   a:active {
     color: rgb(81, 0, 157);
   }
+  /* Index CSS */
+  #GamesIvePlayed{
+    max-width: 275px;
+    border-style: groove;
+    border-width: 15px;
+    border-color: black;
+    margin-right: inherit;
+    background-color: white;
+}
   button{
     border-style: groove;
     border-width: thick;
@@ -59,6 +56,63 @@ a:link {
     font-size: 15px;
     color: #1d0039;
   }
+  #PhotoOfMe{
+    border-color: #2a0052;
+    border-style: inset;
+    border-radius: 150px;
+    outline-color:#2a0052;
+    border-width: 15px;
+    margin-left: 30px;
+}
+#indexText{
+  border-style: groove;
+  border-width: 4px;
+  border-color: black;
+  width: 575px;
+  background-color: #51009d;
+  font-size: 30px;
+  color: #1d0039;
+
+}
+
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+
+  }
+}
+
+
+
+
+
+
+/* About Me CSS */
   #aboutmeimages{
     max-width: 400px;
     border-style: groove;
@@ -67,6 +121,15 @@ a:link {
     margin-right: inherit;
     background-color: white;
   }
-  li{
-color: #51009d;
+
+  /* My Skills CSS */
+  
+  #skills{
+    border-style: groove;
+    border-width: thick;
+    border-color: black;
+    margin-right: inherit;
+    background-color: #51009d;
+    font-size: 15px;
+    color: #1d0039;
   }

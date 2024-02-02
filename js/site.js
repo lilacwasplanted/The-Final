@@ -1,7 +1,7 @@
 const GamesIvePlayed = document.getElementById("GamesIvePlayed");
 let imgsToUse = [
+    "./images/EpicMickey2.PNG", 
     "./images/StrangeHorticulture.webp",
-    "./images/EpicMickey2.PNG",
     "./images/Fortnite.png",
     "./images/hearthstone.jpg",
     "./images/PotionCraft.webp",
@@ -18,7 +18,7 @@ function updateSlideShowImage(){
     let nextImageURL = imgsToUse[currentImageIndex];
     GamesIvePlayed.src = nextImageURL;
 }
-setInterval(updateSlideShowImage, 2500);
+setInterval(updateSlideShowImage, 1500);
 
 const aboutmeimages = document.getElementById("aboutmeimages");
 let AMimgs = [
@@ -45,7 +45,7 @@ const theFUNbutton = document.getElementById("theFUNbutton");
 const theFUNaudio = document.getElementById("theFUNaudio");
 
  function partyTime(){
-    alert("Time to have PARTTYYYY")
+    alert("Time to have PARTTYYYY!!!! Turn on your sound for the fun!")
 theFUNaudio.play();
  }
  theFUNbutton.addEventListener('click',partyTime);
